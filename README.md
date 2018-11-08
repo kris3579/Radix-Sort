@@ -1,9 +1,9 @@
-# Insertion Sort
+# Radix and Merge Sort
 
 ## Challenge
 
-Write a function which takes an array and sorts it using the insertion method.
+Write a merge sort function and a radix sort function
 
 ## Travis
 
-[![Build Status](https://travis-ci.com/kris3579/Insertion-Sort.svg?branch=master)](https://travis-ci.com/kris3579/Insertion-Sort)
+[![Build Status](https://travis-ci.com/kris3579/Radix-Sort.svg?branch=master)](https://travis-ci.com/kris3579/Radix-Sort)
