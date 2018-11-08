@@ -28,9 +28,9 @@ const _mergeSortHelper = (items) => {
   return _merge(_mergeSortHelper(leftItems), _mergeSortHelper(rightItems));
 };
 
-const mergeSort = (items) => {
+module.exports = function mergesort(items) {
   if (!Array.isArray(items)) {
-    throw new TypeError('Input should be an array');
+    return null;
   }
   return _mergeSortHelper(items);
 };
